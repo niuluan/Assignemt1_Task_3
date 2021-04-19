@@ -1,0 +1,1 @@
+select m.LastName, m.FirstName, m.MemberID from member m where Year(m.JoinDate)=2010
